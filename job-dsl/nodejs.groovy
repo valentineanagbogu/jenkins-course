@@ -1,5 +1,5 @@
 // start
-job('NodeJS example') {
+job('NodeJS-JobDSL') {
     
     // git repository which will be used in the job
     scm {
