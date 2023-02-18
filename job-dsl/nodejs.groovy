@@ -4,8 +4,8 @@ job('NodeJS-JobDSL') {
     // git repository which will be used in the job
     scm {
         git('https://github.com/valentineanagbogu/docker-demo.git') {  node -> // is hudson.plugins.git.GitSCM
-            node / gitConfigName('DSL User')
-            node / gitConfigEmail('jenkins-dsl@newtech.academy')
+            node / gitConfigName('Valentine A')
+            node / gitConfigEmail('val@jenkins.jenk')
         }
     }
     
