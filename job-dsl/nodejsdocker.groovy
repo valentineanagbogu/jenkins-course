@@ -14,7 +14,7 @@ job('NodeJS-JobDSL-docker') {
     }
     steps {
         dockerBuildAndPublish {
-            repositoryName('valentineanagbogu/docker-nodejs-demo')
+            repositoryName('valentineanagbogu/nodejs-jobdsl')
             tag('${GIT_REVISION,length=9}')
             registryCredentials('dockerhub')
             forcePull(false)
